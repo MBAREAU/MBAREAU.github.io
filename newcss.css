@@ -1,5 +1,7 @@
 body{
-    background-color: white;
+    background: url(photo paysagiste.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 .topnav {
   background-color: #333;
@@ -42,7 +44,7 @@ body{
     font-size: 25px;
     position: relative;
     top: 35px;
-    left: -10%;
+    left: -25%;
 }
 .slogan h2{
     font-size: 40px;
