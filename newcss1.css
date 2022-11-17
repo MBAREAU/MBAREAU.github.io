@@ -37,25 +37,30 @@ body{
     
 }
 .titre h1{
-    color: white;
     font-size: 60px;
     text-align:center;
+
+    color: #0A7A11;
+
+    text-shadow: #FFFCA8 2px 2px 0px, #9C9C9C 4px 4px 0px;
+    
 }
 .card{
     position:static;
     padding:100px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    background-color: rgba(57,98,84,0.5);
-    width:200px;
+    background-color: rgba(57,98,84,0.8);
+    width:1150px;
     font-size:20px;
 }
 .card .container{
     padding: 2px 16px;
-}
-.card .container img{
-    width:100%;
-    border-radius:5px 5px 0 0;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0,0,0,0.6);
+    background: #629552;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
 }
 
 .card:hover{

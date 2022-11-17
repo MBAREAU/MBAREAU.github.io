@@ -38,18 +38,8 @@ body{
 }
 .titre h1{
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     text-align:center;
 }
-.titre p{
-    font-size: 25px;
-    position: relative;
-    top: 35px;
-    left: -25%;
-}
-.slogan h2{
-    font-size: 40px;
-    font-family: Harlow Solid Italic;
-    margin-left: 50px;
-    color: white;
-}
+
+
