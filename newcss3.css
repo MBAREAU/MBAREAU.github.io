@@ -41,4 +41,25 @@ body{
     font-size: 60px;
     text-align:center;
 }
+.card{
+    position:static;
+    padding:100px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgba(95, 141, 78,0.8);
+    width:1150px;
+    font-size:20px;
+}
+.card .container{
+    padding: 2px 16px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0,0,0,0.6);
+    background: #A4BE7B;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(244, 234, 213,0.3);
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 

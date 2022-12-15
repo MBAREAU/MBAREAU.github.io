@@ -41,4 +41,64 @@ body{
     font-size: 60px;
     text-align:center;
 }
+.forecast {
+    margin: 0;
+    padding: .3rem;
+    background-color: #425F57;
+    font: 1rem 'Fira Sans', sans-serif;
+    display:flex;
+    justify-content: space-between;
+}
+
+.forecast > h1,
+.day-forecast {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.day-forecast {
+    background: right/contain content-box border-box no-repeat
+        url('/media/examples/rain.svg') white;
+}
+
+.day-forecast > h2,
+.day-forecast > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+.forecast {
+    margin: 0;
+    padding: .3rem;
+    background-color: #425F57;
+    font: 1rem 'Fira Sans', sans-serif;
+    display:flex;
+    justify-content: space-between;
+}
+
+.pierre > h1,
+.day-forecast {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.day-pierre {
+    background: right/contain content-box border-box no-repeat
+        url('/media/examples/rain.svg') white;
+}
+
+.day-pierre > h2,
+.day-pierre > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+.pierre {
+    margin: 0;
+    padding: .3rem;
+    background-color: #425F57;
+    font: 1rem 'Fira Sans', sans-serif;
+    display:flex;
+    justify-content: space-between;
+}
 
