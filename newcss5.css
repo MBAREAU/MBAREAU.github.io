@@ -1,7 +1,7 @@
 body{
     background: url(photo_paysagiste.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    height:100%;
 }
 .topnav {
   background-color: #333;
@@ -40,6 +40,7 @@ body{
     color: white;
     font-size: 60px;
     text-align:center;
+    text-shadow: 2px 2px black;
 }
 table,
 td {
@@ -52,19 +53,14 @@ tfoot {
     color: #fff;
 }
 table{
-    width: 500px;
-    height: 400px;
-    margin:auto;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    height: 500px;
+    margin: auto;
+    
 }
-.card{
-    position:static;
-    padding:100px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    background-color: rgba(95, 141, 78,0.8);
-    width:600px;
-    font-size:20px;
-    margin:auto;
-}
+
 
 
